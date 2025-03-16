@@ -52,7 +52,7 @@ int main() {
   graph[2].push_back(3);
   graph[3].push_back(2);
 
-  // dfs_recursive(0);
+  dfs_recursive(0);
 
   dfs_iterative(0);
 }

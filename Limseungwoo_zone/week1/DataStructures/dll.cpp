@@ -52,6 +52,7 @@ class DoublyLinkedList {
     first = newNode;
   }
 
+  // 특정 위치에 노드 추가
   void appendAt(int index, int value) {
     if (index <= 0) {
       prepend(value);
@@ -78,6 +79,7 @@ class DoublyLinkedList {
     }
   }
 
+  // 특정 값을 찾는 메서드
   int find(int value) {
     Node* current = first;
     int idx = 0;
