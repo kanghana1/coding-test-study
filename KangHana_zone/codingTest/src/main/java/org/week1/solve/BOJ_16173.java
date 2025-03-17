@@ -1,4 +1,4 @@
-package KangHana_zone.codingTest.src.main.java.org.week1.solve;
+package org.week1.solve;
 
 import java.io.BufferedReader;
 import java.io.IOException;
