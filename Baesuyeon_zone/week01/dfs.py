@@ -18,5 +18,5 @@ def dfs(graph, start, visited=None):
         if next_node not in visited:
             dfs(graph, next_node, visited)
 
-# 시작할 노드를 선택하여 DFS를 호출한다.
+# 시작할 노드(A)를 선택하여 DFS를 호출
 dfs(graph, 'A')
