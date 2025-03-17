@@ -5,7 +5,7 @@ class Node:
         self.next = None  # 다음 노드를 가리키는 포인터
         self.prev = None  # 이전 노드를 가리키는 포인터
         
-# 전체 리스트 관리
+# 리스트 전체를 관리
 class DoublyLinkedList:
     def __init__(self, data):
         self.head = Node(data)  # 리스트의 첫 번째 노드
