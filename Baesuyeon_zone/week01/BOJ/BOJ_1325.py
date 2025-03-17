@@ -18,7 +18,7 @@ def find_most_hackable_computers(N, M, trust_relations):
     result = []
 
     for i in range(1, N + 1):
-        visited = set() # 방문한 노드에 대해 집합을 사용해 추적
+        visited = set() # 방문한 노드에 대해 집합을 사용하여 추적
         hacked_count = dfs(graph, i, visited)
         
         if hacked_count > max_hack:
