@@ -6,7 +6,7 @@ class Node:
         self.prev = None  # 이전 노드를 가리키는 포인터
         
 # 리스트 전체를 관리
-class DoublyLinkedList:
+class DoubleLinkedList:
     def __init__(self, data):
         self.head = Node(data)  # 리스트의 첫 번째 노드
 
@@ -105,7 +105,7 @@ class DoublyLinkedList:
 # 이중 연결 리스트 사용 예제
 if __name__ == '__main__':
 
-    dll = DoublyLinkedList(0)
+    dll = DoubleLinkedList(0)
 
     # 1부터 10까지 데이터를 삽입
     for i in range(1, 11):

@@ -14,7 +14,7 @@ def dfs(x, y):
 
 # 입력 받기
 N = int(input())
-board = [list(map(int, input().split())) for _ in range(N)] # 입력 받은 수만큼 정사각형 보드생성
+board = [list(map(int, input().split())) for _ in range(N)] # 입력 받은 수만큼 정사각형 보드 생성
 visited = [[False] * N for _ in range(N)] # 방문하지 않은 노드 체크
 
 # 결과 출력
