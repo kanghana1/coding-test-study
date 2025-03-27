@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
-// resources.img.weighted-graph.png 참고
+// resources/img/weighted-graph.png 참고
 public class Dijkstra {
     static List<List<int[]>> lst = new ArrayList<>();
     final static int N = 5;
