@@ -43,6 +43,7 @@ int main() {
   for (int i = 0; i < m; i++) {
     int u, v, w;
     cin >> u >> v >> w;
+    // w는 가중치 값
     graph[u].push_back({v, w});
   }
 
