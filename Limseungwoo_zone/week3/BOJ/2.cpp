@@ -3,6 +3,7 @@ using namespace std;
 
 int dir_num = 0;
 char maps[104][104];
+// 각 지점에서 다른 방향으로 오는 경우를 각각 처리하기 위해 3차원 배열 사용
 int mirror[104][104][5];
 
 int dy[] = {1, 0, -1, 0};
@@ -15,6 +16,7 @@ void dijkstra(int start_y, int start_x) {
                  vector<pair<int, pair<int, pair<int, int>>>>,
                  greater<pair<int, pair<int, pair<int, int>>>>>
       pq;
+  // 맨 처음 시작할 때는 무방향 상태를 나타내기 위해 4라는 임의의 값 사용
   pq.push({0, {4, {start_y, start_x}}});
   mirror[start_y][start_x][4] = 0;
 
