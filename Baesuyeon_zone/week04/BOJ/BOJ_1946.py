@@ -5,7 +5,7 @@ T = int(input())  # 테스트 케이스 개수
 
 def final_member(applicants):
     applicants.sort() # 서류 기준으로 오름차순 정렬
-    count = 1  # 첫 번째 지원자는 무조건 통과(일단 count 1)
+    count = 1  # 첫 번째 지원자는 무조건 통과(서류 1등일테니까..)
     min_interview = applicants[0][1]
 
     for i in range(1, len(applicants)): #모든 신청자 체킹
