@@ -40,6 +40,7 @@ int main() {
     int mask = 0;
     string tmp;
     cin >> tmp;
+    // 비트마스크 형식으로 저장
     for (char c : tmp) {
       mask |= (1 << (c - 'a'));
     }
@@ -51,8 +52,8 @@ int main() {
     return 0;
   }
 
-  antic |= 1 << ('a' - 'a');
-  antic |= 1 << ('c' - 'a');
+  antic |= 1 << ('a' - 'a');  // .... 0000 0000
+  antic |= 1 << ('c' - 'a');  // .... 0000 0100
   antic |= 1 << ('i' - 'a');
   antic |= 1 << ('n' - 'a');
   antic |= 1 << ('t' - 'a');
